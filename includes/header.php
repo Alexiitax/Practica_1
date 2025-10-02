@@ -13,7 +13,7 @@ if (!isset($titulo_pagina)){
     ?>
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body>
+<body> 
     <header>
         <h1>Enciclopedia de Animales</h1>
         <nav>
