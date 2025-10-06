@@ -1,8 +1,7 @@
 <?php
     require_once "../data/datos.php";
 
-    $id = $_GET['id'] ?? null;
-    $animal = null;
+    $id = $_GET['id'];
 
     foreach ($animales as $a) {
         if ($a['id'] == $id) {
